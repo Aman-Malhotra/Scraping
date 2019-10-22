@@ -20,4 +20,3 @@ class QuotesSpider(scrapy.Spider):
             items['author']=author
             items['tag'] = tag
             yield items
-

@@ -8,4 +8,5 @@
 
 class QuotetutorialPipeline(object):
     def process_item(self, item, spider):
+        print("******************PIPELINE  for "+item['title'][0]+"******************")
         return item
