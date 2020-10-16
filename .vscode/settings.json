@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "local/bin/python2.7"
+    "python.pythonPath": "local/bin/python2.7",
+    "python.dataScience.jupyterServerURI": "local"
 }
